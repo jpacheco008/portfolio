@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Yellowtail&display=swap');
+
+.project-container{
+display: flex;
+background-color: #3e6b89;
+border-radius: 15px;
+width: 90vw;
+margin: 20px;
+}
+.name-image-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 350px;
+  background-color: #3dd2cc;
+  margin: 15px;
+  border-radius: 10px;
+}
+.project-name{
+  text-align: center;
+  margin: 5px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+.project-image{
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.project-info-container{
+  display: flex;
+  flex-flow: column;
+  margin: 20px auto;
+}
+.project-description{
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: justify;
+  margin: 10px;
+}
+.project-links-containers{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.project-link{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-family: 'Hammersmith One', sans-serif;
+  text-decoration: none;
+  color: black;
+  margin: auto 20px;
+  padding: 0px 8px;
+  border: 2px solid #3dd2cc;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.project-logo{
+  width: 25px;
+  height: 25px;
+  margin: 0px 5px;
+}

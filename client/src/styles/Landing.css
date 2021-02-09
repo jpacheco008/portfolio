@@ -17,7 +17,6 @@
   font-size: 15px;
 }
 .landing-button{
-  margin: 15px auto;
   width: 140px;
   height: 40px;
   font-family: 'Hammersmith One', sans-serif;
@@ -29,4 +28,7 @@
 .landing-button:hover{
   background-color: #3e6b89;
   color: white;
+}
+.landing-button-link{
+  margin: 15px auto;
 }
