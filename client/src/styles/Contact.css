@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Yellowtail&display=swap");
 
-.contact-container{
+.contact-container {
   display: flex;
   flex-flow: column;
 }
-.contact-text{
-  font-family: 'Hammersmith One', sans-serif;
+.contact-text {
+  font-family: "Hammersmith One", sans-serif;
   margin: 20vh auto;
 }
-.contact-links{
+.contact-links {
   margin: 50px auto;
 }
-.contact-icon{
+.contact-icon {
   width: 40px;
   margin: 0 20px;
 }

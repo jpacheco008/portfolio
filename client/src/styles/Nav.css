@@ -1,15 +1,15 @@
-.nav-container{
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.links-container{
+.links-container {
   margin-right: 50px;
 }
-.logo{
+.logo {
   width: 100px;
 }
-.nav-links{
+.nav-links {
   margin: 20px;
   text-decoration: none;
   font-family: helvetica;
