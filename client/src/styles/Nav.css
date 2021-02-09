@@ -1,0 +1,18 @@
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links-container{
+  margin-right: 50px;
+}
+.logo{
+  width: 100px;
+}
+.nav-links{
+  margin: 20px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: 500;
+  color: #000000;
+}
