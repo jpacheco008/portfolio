@@ -10,11 +10,9 @@ export default function Project1() {
       </div>
       <div className="project-info-container">
         <p className="project-description">
-          This application is for the user to keep track of all the orders being
-          placed. Costumers will place their orders from a menu rendered from a
-          database and after making their selections the order will be added to
-          a second database. The second recive the name of the item and a unique
-          number provided by a counter at submission.
+          This React application is for a user to keep track of all the orders being
+          placed by other users. The application uses HTML, CSS, Javascript, and Airtable
+          for API calls.
         </p>
         <div className="project-links-containers">
           <a
@@ -24,7 +22,7 @@ export default function Project1() {
             href="https://pensive-mayer-03c92a.netlify.app"
           >
             <img
-              src="https://www.logolynx.com/images/logolynx/38/385bb555429c7c2ba2d90bbac5c78113.png"
+              src="https://www.pngfind.com/pngs/m/32-321388_the-internet-png-logo-internet-png-transparent-png.png"
               alt="live-site"
               className="project-logo"
             />{" "}

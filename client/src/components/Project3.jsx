@@ -13,7 +13,8 @@ export default function Project3() {
           CAFFEINE EXPLORER is an app that allows the user to browse thru a
           selection of fictional coffees generated with Fakker. The user will be
           able to make an account and have more functionality avialable (leave a
-          comment on a coffee).
+          comment on a coffee). The application uses CSS, Javascript, React, Ruby,
+          and Ruby on Rails.
         </p>
         <div className="project-links-containers">
           <a
@@ -23,7 +24,7 @@ export default function Project3() {
             href="https://modest-tesla-2c628d.netlify.app"
           >
             <img
-              src="https://www.logolynx.com/images/logolynx/38/385bb555429c7c2ba2d90bbac5c78113.png"
+              src="https://www.pngfind.com/pngs/m/32-321388_the-internet-png-logo-internet-png-transparent-png.png"
               alt="live-site"
               className="project-logo"
             />{" "}
