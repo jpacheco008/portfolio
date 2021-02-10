@@ -4,8 +4,9 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h2 className="contact-text">Let's Create Together</h2>
+      <p className="contact-text">If you like my work please reach out to me. I would love to hear from you.</p>
       <div className="contact-links">
-        <a
+        {/* <a
           target="_blank"
           rel="noreferrer"
           href="https://github.com/jpacheco008"
@@ -15,7 +16,7 @@ export default function Contact() {
             alt="github"
             className="contact-icon"
           />
-        </a>
+        </a> */}
         <a
           target="_blank"
           rel="noreferrer"

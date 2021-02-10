@@ -12,7 +12,9 @@ export default function Project2() {
         <p className="project-description">
           This full stack app is a bike shop with full front end and back end
           CRUD with authentification. Users with admin privileges will be able
-          to add/delete items and edit items information .
+          to add/delete items and edit items information. This app was created
+          in colaboration with 2 other developers. The application uses CSS,
+          Javascript, and React.
         </p>
         <div className="project-links-containers">
           <a
@@ -22,7 +24,7 @@ export default function Project2() {
             href="https://sleepy-lewin-9c4a68.netlify.app"
           >
             <img
-              src="https://www.logolynx.com/images/logolynx/38/385bb555429c7c2ba2d90bbac5c78113.png"
+              src="https://www.pngfind.com/pngs/m/32-321388_the-internet-png-logo-internet-png-transparent-png.png"
               alt="live-site"
               className="project-logo"
             />{" "}
