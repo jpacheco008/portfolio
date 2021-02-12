@@ -13,8 +13,17 @@ export default function AboutMe() {
           am never afraid of the unknown. Now I'm fully dedicating myself to
           pursuing a software engineering role.
         </h3>
+        <a
+          className='about-me-button-link'
+          target="_blank"
+          rel="noreferrer"
+          href="https://drive.google.com/file/d/16uyl8wBdalnngE6Amof73VDGPMSTd8tj/view?usp=sharing"
+        >
         <button className="about-me-button">Resume</button>
-        <h3 className="about-me-text">Here are the tecnologies I'm familiar with:</h3>
+        </a>
+        <h3 className="about-me-text">
+          Here are the tecnologies I'm familiar with:
+        </h3>
         <div className="about-me-logos-container">
           <div className="about-me-logos">
             <i class="devicon-react-original-wordmark colored"></i>
