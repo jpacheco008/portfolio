@@ -1,4 +1,5 @@
 import CaffeineExplorer from "../assets/Caffeine-Explorer.png";
+import webLogo from "../assets/icons8-website-64.png"
 import "../styles/Projects.css";
 
 export default function Project3() {
@@ -24,7 +25,7 @@ export default function Project3() {
             href="https://modest-tesla-2c628d.netlify.app"
           >
             <img
-              src="https://www.pngfind.com/pngs/m/32-321388_the-internet-png-logo-internet-png-transparent-png.png"
+              src={webLogo}
               alt="live-site"
               className="project-logo"
             />{" "}

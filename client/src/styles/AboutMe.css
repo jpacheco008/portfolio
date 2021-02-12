@@ -12,15 +12,22 @@
 .about-me-info{
   width: 400px;
   margin: auto 80px;
+  padding: 2vw;
   font-family: "Hammersmith One", sans-serif;
   text-align: justify;
+  background-color: #87CFDF;
+  border-radius: 15px;
 }
+
 .about-me-logos-container{
   display: flex;
   flex-flow: row wrap;
   width: 250px;
+  padding: 10px;
   justify-content: center;
   margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.557);
+  border-radius: 10px;
 }
 .about-me-info{
   display: flex;
@@ -42,7 +49,8 @@
   text-decoration: none;
   color: black;
   padding: 5px 5px;
-  border: 2px solid #3dd2cc;
+  border: 2px solid #000000;
   border-radius: 5px;
   font-size: 15px;
+  background-color: #4C90A2;
 }
