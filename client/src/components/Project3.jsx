@@ -5,11 +5,11 @@ import "../styles/Projects.css";
 export default function Project3() {
   return (
     <div className="project-container">
+      <div className="project-info-container">
       <div className="name-image-container">
         <h3 className="project-name">Caffeine Explorer</h3>
         <img src={CaffeineExplorer} alt="project" className="project-image" />
       </div>
-      <div className="project-info-container">
         <p className="project-description">
           CAFFEINE EXPLORER is an app that allows the user to browse thru a
           selection of fictional coffees generated with Fakker. The user will be
@@ -17,6 +17,7 @@ export default function Project3() {
           comment on a coffee). The application uses CSS, Javascript, React, Ruby,
           and Ruby on Rails.
         </p>
+          </div>
         <div className="project-links-containers">
           <a
             target="_blank"
@@ -44,7 +45,6 @@ export default function Project3() {
             />
             <p>To Github Repo:</p>
           </a>
-        </div>
       </div>
     </div>
   );
