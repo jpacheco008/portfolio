@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -12,10 +14,19 @@
 .nav-links {
   margin: 20px;
   text-decoration: none;
-  font-family: helvetica;
+  font-family: "Hammersmith One", sans-serif;
   font-weight: 500;
   color: #000000;
 }
 @media only screen and (max-width: 601px) {
-  
+  .nav-links{
+    margin: 5px;
+    font-size: 12px;
+  }
+  .links-container{
+    margin-right: 5px;
+  }
+  .logo{
+    width: 50px;
+  }
 }
