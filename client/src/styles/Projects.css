@@ -2,8 +2,10 @@
 
 .project-container {
   display: flex;
+  flex-flow: column;
   border-radius: 15px;
-  width: 90vw;
+  width: 45vw;
+  height: 300px;
   margin: 20px;
   box-shadow: 2px 2px 2px 2px #3e6b89;
 }
@@ -11,7 +13,8 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 350px;
+  width: 250px;
+  height: 180px;
   background-color: #3e6b89;
   margin: 15px;
   border-radius: 10px;
@@ -22,24 +25,26 @@
   font-family: "Hammersmith One", sans-serif;
 }
 .project-image {
-  width: 300px;
+  width: 200px;
   margin: 10px;
   border-radius: 5px;
 }
 .project-info-container {
   display: flex;
-  flex-flow: column;
-  margin: 20px auto;
+  flex-flow: row;
+  align-items: center;
+  margin: 15px;
 }
 .project-description {
   font-family: "Hammersmith One", sans-serif;
-  text-align: justify;
+  text-align: left;
   margin: 10px;
+  font-size: 15px;
 }
 .project-links-containers {
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .project-link {
   display: flex;
@@ -58,4 +63,70 @@
   width: 25px;
   height: 25px;
   margin: 0px 5px;
+}
+@media only screen and (max-width: 601px) {
+  .project-container {
+    border-radius: 15px;
+    width: 85vw;
+    height: 300px;
+    margin: 10px auto;
+  }
+  .name-image-container {
+    width: 250px;
+    height: 140px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .project-image {
+    width: 200px;
+    margin: 5px auto;
+  }
+  .project-info-container {
+    flex-flow: column;
+    margin: 3px;
+  }
+  .project-description {
+    margin: 5px;
+    font-size: 10px;
+  }
+  .project-link {
+    margin: auto 8px;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .project-logo {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media only screen and (min-width: 602px) and (max-width: 1190px) {
+  .project-container {
+  margin: 10px;
+  height: 350px;
+}
+.name-image-container {
+  height: 140px;
+}
+.project-image {
+  margin: 8px auto;
+}
+  .project-info-container {
+    flex-flow: column;
+    margin: 3px;
+  }
+  .project-description {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .project-link {
+    margin: auto 8px;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .project-logo {
+    width: 10px;
+    height: 10px;
+  }
 }

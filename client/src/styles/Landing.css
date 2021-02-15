@@ -29,8 +29,24 @@
 }
 .landing-button:hover {
   background-color: #3dd2cc;
-  color: white;
+  color: black;
 }
 .landing-button-link {
   margin: 15px auto;
+}
+@media only screen and (max-width: 601px) {
+  .landing-name{
+    font-size: 50px;
+  }
+  .landing-title{
+    font-size: 10px;
+  }
+  .landing-button{
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 602px) and (max-width: 1050px) {
+  .landing-name{
+    font-size: 100px;
+  }
 }

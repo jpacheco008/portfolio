@@ -54,3 +54,30 @@
   font-size: 15px;
   background-color: #4C90A2;
 }
+@media only screen and (max-width: 720px) {
+  .about-me-container{
+    flex-flow: column;
+  }
+  .photo{
+    height: 200px;
+  }
+  .about-me-info{
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  .about-me-logos-container{
+    width: 175px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .about-me-text{
+    font-size: 10px;
+  }
+  .about-me-button{
+  width: 50px;
+  padding: 3px 3px;
+  border-radius: 5px;
+  font-size: 10px;
+  }
+}

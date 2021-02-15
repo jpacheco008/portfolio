@@ -5,11 +5,11 @@ import "../styles/Projects.css";
 export default function Project2() {
   return (
     <div className="project-container">
+      <div className="project-info-container">
       <div className="name-image-container">
         <h3 className="project-name">Cool Ridings</h3>
         <img src={CoolRidings} alt="project" className="project-image" />
       </div>
-      <div className="project-info-container">
         <p className="project-description">
           This full stack app is a bike shop with full front end and back end
           CRUD with authentification. Users with admin privileges will be able
@@ -17,6 +17,7 @@ export default function Project2() {
           in colaboration with 2 other developers. The application uses CSS,
           Javascript, and React.
         </p>
+          </div>
         <div className="project-links-containers">
           <a
             target="_blank"
@@ -44,7 +45,6 @@ export default function Project2() {
             />
             <p>To Github Repo:</p>
           </a>
-        </div>
       </div>
     </div>
   );
