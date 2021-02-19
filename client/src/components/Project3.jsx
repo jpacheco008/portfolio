@@ -1,4 +1,4 @@
-import CaffeineExplorer from "../assets/Caffeine-Explorer.png";
+import CaffeineExplorer from "../assets/Caffeine-Explorer.jpg";
 import webLogo from "../assets/icons8-website-64.png"
 import "../styles/Projects.css";
 
