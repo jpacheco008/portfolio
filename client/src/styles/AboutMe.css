@@ -45,7 +45,7 @@
 }
 .about-me-button{
   width: 70px;
-  margin: 8px auto;
+  margin: 0 auto;
   font-family: "Hammersmith One", sans-serif;
   text-decoration: none;
   color: black;
@@ -54,6 +54,7 @@
   border-radius: 5px;
   font-size: 15px;
   background-color: #87CFDF;
+  cursor: pointer;
 }
 @media only screen and (max-width: 720px) {
   .about-me-container{
