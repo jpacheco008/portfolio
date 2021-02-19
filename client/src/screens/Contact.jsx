@@ -3,8 +3,8 @@ import "../styles/Contact.css";
 export default function Contact() {
   return (
     <div className="contact-container">
-      <h2 className="contact-text">Let's Create Together</h2>
-      <p className="contact-text">If you like my work please reach out to me. I would love to hear from you.</p>
+      <h2 className="contact-text">Let's Create Something Together</h2>
+      <p className="contact-text">If you like my work, please reach out to me. I would love to hear from you!</p>
       <div className="contact-links">
         <a
           target="_blank"

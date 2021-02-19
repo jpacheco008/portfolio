@@ -11,10 +11,10 @@ export default function Project2() {
         <img src={CoolRidings} alt="project" className="project-image" />
       </div>
         <p className="project-description">
-          This full stack app is a bike shop with full front end and back end
+          This full stack app is a bike shop with front end and back end
           CRUD with authentification. Users with admin privileges will be able
           to add/delete items and edit items information. This app was created
-          in colaboration with 2 other developers. The application uses CSS,
+          in colaboration with two other developers. The application uses CSS,
           Javascript, and React.
         </p>
           </div>

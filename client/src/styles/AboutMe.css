@@ -9,13 +9,14 @@
   margin: 0 auto;
   width: 300px;
   height: 300px;
+  object-fit: cover;
 }
 .about-me-info{
   width: 400px;
-  margin: auto 80px;
+  margin: auto 80px auto 0px;
   padding: 2vw;
   font-family: "Hammersmith One", sans-serif;
-  background-color: #87CFDF;
+  /* background-color: #87CFDF; */
   border-radius: 15px;
 }
 
@@ -52,7 +53,7 @@
   border: 2px solid #000000;
   border-radius: 5px;
   font-size: 15px;
-  background-color: #4C90A2;
+  background-color: #87CFDF;
 }
 @media only screen and (max-width: 720px) {
   .about-me-container{
@@ -60,7 +61,7 @@
   }
   .photo{
     height: 200px;
-    width: 250px;
+    width: 200px;
   }
   .about-me-info{
     width: 250px;
