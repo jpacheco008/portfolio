@@ -1,4 +1,4 @@
-import JuliosKitchen from "../assets/Julios-Kitchen.png";
+import JuliosKitchen from "../assets/Julios-Kitchen.jpg";
 import webLogo from "../assets/icons8-website-64.png"
 import "../styles/Projects.css";
 
