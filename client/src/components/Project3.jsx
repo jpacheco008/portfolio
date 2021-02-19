@@ -11,10 +11,10 @@ export default function Project3() {
         <img src={CaffeineExplorer} alt="project" className="project-image" />
       </div>
         <p className="project-description">
-          CAFFEINE EXPLORER is an app that allows the user to browse thru a
+          CAFFEINE EXPLORER is an app that allows the user to browse through a
           selection of fictional coffees generated with Fakker. The user will be
-          able to make an account and have more functionality avialable (leave a
-          comment on a coffee). The application uses CSS, Javascript, React, Ruby,
+          able to make an account, and have more functionality available (leave a
+          comment on a coffee). This application uses CSS, Javascript, React, Ruby,
           and Ruby on Rails.
         </p>
           </div>

@@ -7,22 +7,23 @@ export default function AboutMe() {
       <img src={Me} alt="headshot" className="photo" />
       <div className="about-me-info">
         <h3 className="about-me-text">
-          I am a charismatic person, always in the pursuit of knowledge. I spent
-          5 years working as an electrical engineer and was hungry for something
-          more challenging. Life has taken me in many interesting turns, but I
-          am never afraid of the unknown. Now I'm fully dedicating myself to
-          pursuing a software engineering role.
+          After five years working as an electrical engineer, I was ready for something more
+          challenging. Now I am pursuing a software engineering role.
+          <br />
+          <br/>
+          Life has taken me down many interesting turns, but I am never afraid of the unknown.
+          I enjoy the pursuit of knowledge, and accomplishing new and exciting projects.
         </h3>
         <a
           className='about-me-button-link'
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1DExvgK_qODDggODL6CiwVPVnQFAdKGSU/view?usp=sharing"
+          href="https://drive.google.com/file/d/1aL-2t5Qmwdyp1X9GTTzLwgrqVa4oqabH/view?usp=sharing"
         >
         <button className="about-me-button">Resume</button>
         </a>
         <h3 className="about-me-text">
-          Here are the tecnologies I'm familiar with:
+          Here are the technologies Ihave worked with:
         </h3>
         <div className="about-me-logos-container">
           <div className="about-me-logos">

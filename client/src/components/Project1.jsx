@@ -11,7 +11,7 @@ export default function Project1() {
         <img src={JuliosKitchen} alt="project" className="project-image" />
       </div>
         <p className="project-description">
-          This React application is for a user to keep track of all the orders being
+          This React application allows the user to keep track of all the orders being
           placed by other users. The application uses HTML, CSS, Javascript, and Airtable
           for API calls.
         </p>
