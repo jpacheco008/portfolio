@@ -7,75 +7,46 @@ export default function AboutMe() {
       <img src={Me} alt="headshot" className="photo" />
       <div className="about-me-info">
         <h3 className="about-me-text">
-          After five years working as an electrical engineer, I was ready for something more
-          challenging. Now I am pursuing a software engineering role.
+          After five years working as an electrical engineer, I was ready for
+          something more challenging. Now I am pursuing a software engineering
+          role.
           <br />
-          <br/>
-          Life has taken me down many interesting turns, but I am never afraid of the unknown.
-          I enjoy the pursuit of knowledge, and accomplishing new and exciting projects.
+          <br />
+          Life has taken me down many interesting turns, but I am never afraid
+          of the unknown. I enjoy the pursuit of knowledge, and accomplishing
+          new and exciting projects.
         </h3>
         <a
-          className='about-me-button-link'
+          className="about-me-button-link"
           target="_blank"
           rel="noreferrer"
           href="https://drive.google.com/file/d/1aL-2t5Qmwdyp1X9GTTzLwgrqVa4oqabH/view?usp=sharing"
         >
-        <button className="about-me-button">Resume</button>
+          <button className="about-me-button">Resume</button>
         </a>
         <h3 className="about-me-text">
-          Here are the technologies Ihave worked with:
+          Here are the technologies I have worked with:
         </h3>
         <div className="about-me-logos-container">
           <div className="about-me-logos">
-            <i class="devicon-react-original-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-css3-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-html5-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-javascript-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-java-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-nodejs-plain-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-npm-original-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-mysql-plain-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-postgresql-plain-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-ruby-plain-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-rails-plain-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-cplusplus-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-csharp-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-git-plain colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-github-original colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-heroku-original-wordmark colored"></i>
-          </div>
-          <div className="about-me-logos">
-            <i class="devicon-mongodb-plain colored"></i>
+            <i className="devicon-csharp-plain"></i>
+            <i className="devicon-css3-plain"></i>
+            <i className="devicon-git-plain"></i>
+            <i className="devicon-github-original"></i>
+            <i className="devicon-heroku-original"></i>
+            <i className="devicon-html5-plain"></i>
+            <i className="devicon-java-plain"></i>
+            <i className="devicon-javascript-plain"></i>
+            <i className="devicon-mongodb-plain-wordmark"></i>
+            <i className="devicon-mysql-plain-wordmark"></i>
+            <i className="devicon-nodejs-plain-wordmark"></i>
+            <i className="devicon-npm-original-wordmark"></i>
+            <i className="devicon-postgresql-plain-wordmark"></i>
+            <i className="devicon-rails-plain-wordmark"></i>
+            <i className="devicon-react-original"></i>
+            <i className="devicon-react-original-wordmark"></i>
+            <i className="devicon-ruby-plain"></i>
+            <i className="devicon-xd-line"></i>
           </div>
         </div>
       </div>
