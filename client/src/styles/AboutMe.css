@@ -1,86 +1,94 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
-.about-me-container{
+.about-me-container {
   display: flex;
   flex-flow: row;
 }
-.photo{
+.photo {
   border-radius: 50%;
   margin: 0 auto;
   width: 300px;
   height: 300px;
   object-fit: cover;
 }
-.about-me-info{
+.about-me-info {
   width: 400px;
   margin: auto 80px auto 0px;
   padding: 2vw;
-  font-family: "Hammersmith One", sans-serif;
-  /* background-color: #87CFDF; */
+  font-family: "Nunito", sans-serif;
   border-radius: 15px;
 }
 
-.about-me-logos-container{
+.about-me-logos-container {
   display: flex;
   flex-flow: row wrap;
   width: 250px;
   padding: 10px;
   justify-content: center;
   margin: 0 auto;
-  background-color: rgba(128, 128, 128, 0.557);
   border-radius: 10px;
 }
-.about-me-info{
+.about-me-info {
   display: flex;
   flex-flow: column;
 }
-.about-me-logos{
-  width: 40px;
+.about-me-logos {
+  display: flex;
+  flex-flow: row wrap;
+  width: 290px;
   margin: 5px auto;
   font-size: 30px;
 }
-.about-me-button-link{
+i {
+  margin: 3px 5px;
+}
+.about-me-button-link {
   width: 70px;
   margin: 0 auto;
 }
-.about-me-button{
+.about-me-button {
   width: 70px;
   margin: 0 auto;
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 5px 5px;
-  border: 2px solid #000000;
+  border: 2px solid #3e6b89;
   border-radius: 5px;
   font-size: 15px;
-  background-color: #87CFDF;
+  font-weight: 700;
+  background-color: #3e6b89;
   cursor: pointer;
 }
+.about-me-button:hover {
+  background-color: #3dd2cc;
+  color: black;
+}
 @media only screen and (max-width: 720px) {
-  .about-me-container{
+  .about-me-container {
     flex-flow: column;
   }
-  .photo{
+  .photo {
     height: 200px;
     width: 200px;
   }
-  .about-me-info{
+  .about-me-info {
     width: 250px;
     margin: 10px auto;
     border-radius: 5px;
   }
-  .about-me-logos-container{
+  .about-me-logos-container {
     width: 175px;
     padding: 5px;
     border-radius: 5px;
   }
-  .about-me-text{
+  .about-me-text {
     font-size: 10px;
   }
-  .about-me-button{
-  width: 50px;
-  padding: 3px 3px;
-  border-radius: 5px;
-  font-size: 10px;
+  .about-me-button {
+    width: 50px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-size: 10px;
   }
 }

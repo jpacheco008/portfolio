@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 .contact-container {
   display: flex;
   flex-flow: column;
 }
 .contact-text {
-  font-family: "Hammersmith One", sans-serif;
-  margin: 10vh auto;
+  font-family: "Nunito", sans-serif;
+  margin: 5vh auto;
   text-align: center;
 }
 .contact-links {
@@ -15,4 +15,36 @@
 .contact-icon {
   width: 40px;
   margin: 0 40px;
+}
+.contact-icon:hover {
+  cursor: pointer;
+}
+.form-container {
+  background-color: #63bbd3;
+  width: 210px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #3e6b89;
+}
+.contact-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-input {
+  margin-top: 10px;
+  width: 172px;
+}
+.text-area {
+  margin-top: 10px;
+}
+.form-buttom {
+  margin: 5px auto;
+  border: 2px solid #3e6b89;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #3e6b89;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
 }

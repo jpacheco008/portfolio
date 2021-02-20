@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 .project-container {
   display: flex;
@@ -8,6 +8,7 @@
   height: 300px;
   margin: 20px;
   box-shadow: 2px 2px 2px 2px #3e6b89;
+  background-color: #63bbd3;
 }
 .name-image-container {
   display: flex;
@@ -22,7 +23,7 @@
 .project-name {
   text-align: center;
   margin: 5px;
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 .project-image {
   width: 200px;
@@ -36,7 +37,7 @@
   margin: 15px;
 }
 .project-description {
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: left;
   margin: 10px;
   font-size: 15px;
@@ -50,12 +51,12 @@
   display: flex;
   flex-flow: row;
   align-items: center;
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-decoration: none;
   color: black;
   margin: auto 20px;
   padding: 0px 8px;
-  border: 2px solid #3dd2cc;
+  border: 2px solid #3e6b89;
   border-radius: 5px;
   font-size: 12px;
 }
@@ -102,15 +103,15 @@
 }
 @media only screen and (min-width: 602px) and (max-width: 1190px) {
   .project-container {
-  margin: 10px;
-  height: 350px;
-}
-.name-image-container {
-  height: 140px;
-}
-.project-image {
-  margin: 8px auto;
-}
+    margin: 10px;
+    height: 350px;
+  }
+  .name-image-container {
+    height: 140px;
+  }
+  .project-image {
+    margin: 8px auto;
+  }
   .project-info-container {
     flex-flow: column;
     margin: 3px;
