@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: 50px auto;
+}
+
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 2px #3dd2cc, 0 0 10px #3dd2cc, 0 0 15px #3dd2cc, 0 0 20px #3e6b89, 0 0 25px #3e6b89, 0 0 30px #3e6b89, 0 0 35px #3e6b89;
+  }
+  to {
+    text-shadow: 0 0 12px #000, 0 0 25px #3dd2cc, 0 0 35px #3dd2cc, 0 0 40px #3e6b89, 0 0 45px #3e6b89, 0 0 50px #3e6b89, 0 0 50px #3e6b89;
+  }
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 2px #3dd2cc, 0 0 10px #3dd2cc, 0 0 15px #3dd2cc, 0 0 20px #3e6b89, 0 0 25px #3e6b89, 0 0 30px #3e6b89, 0 0 35px #3e6b89;
+  }
+  to {
+    text-shadow: 0 0 12px #000, 0 0 25px #3dd2cc, 0 0 35px #3dd2cc, 0 0 40px #3e6b89, 0 0 45px #3e6b89, 0 0 50px #3e6b89, 0 0 50px #3e6b89;
+  }
+}
+
+.landing-name {
+  margin: 15px auto;
+  font-family: "Yellowtail", cursive;
+  font-size: 160px;
+  letter-spacing: 5px;
+  color: whitesmoke;
+  -webkit-animation: neon 1.9s ease-in infinite;
+          animation: neon 1.9s ease-in infinite;
+}
+
+.landing-title {
+  margin: 10px auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+}
+
+.landing-button {
+  width: 160px;
+  height: 40px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid #3e6b89;
+  background-color: #3e6b89;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  color: white;
+}
+
+.landing-button:hover {
+  background-color: #3dd2cc;
+  color: black;
+}
+
+.landing-button-link {
+  margin: 15px auto;
+}
+
+.about-me-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.photo {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about-me-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 400px;
+  margin: auto 80px auto 0px;
+  padding: 2vw;
+  border-radius: 15px;
+}
+
+.about-me-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 290px;
+  margin: 5px auto;
+  font-size: 30px;
+}
+
+.about-me-logos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 250px;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+i {
+  margin: 3px 5px;
+}
+
+.about-me-button {
+  width: 70px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  padding: 5px 5px;
+  border: 2px solid #3e6b89;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #3e6b89;
+  cursor: pointer;
+}
+
+.about-me-button:hover {
+  background-color: #3dd2cc;
+  color: black;
+}
+
+.about-me-button-link {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.contact-text {
+  margin: 5vh auto;
+  text-align: center;
+}
+
+.contact-links {
+  margin: 50px auto;
+}
+
+.contact-icon {
+  width: 40px;
+  margin: 0 40px;
+}
+
+.contact-icon:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  background-color: #3dd2cc;
+  width: 210px;
+  margin: 0 auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 2px 2px #3e6b89;
+          box-shadow: 2px 2px 2px 2px #3e6b89;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-input {
+  margin-top: 10px;
+  width: 172px;
+}
+
+.text-area {
+  margin-top: 10px;
+}
+
+.form-buttom {
+  margin: 5px auto;
+  padding: 3px;
+  border: 2px solid #3e6b89;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #3e6b89;
+  font-weight: 700;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.links-container {
+  margin-right: 50px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-links {
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  border-radius: 15px;
+  width: 45vw;
+  height: 300px;
+  margin: 20px;
+  -webkit-box-shadow: 2px 2px 2px 2px #3e6b89;
+          box-shadow: 2px 2px 2px 2px #3e6b89;
+  background-color: #3dd2cc;
+}
+
+.name-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 250px;
+  height: 180px;
+  background-color: #3e6b89;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.project-name {
+  text-align: center;
+  margin: 5px;
+}
+
+.project-image {
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.project-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.project-description {
+  text-align: left;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.project-links-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: auto 20px;
+  padding: 4px 8px;
+  border: 2px solid #3e6b89;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.project-logo {
+  width: 25px;
+  height: 25px;
+  margin: 0px 5px;
+}
+
+@media screen and (max-width: 720px) {
+  .about-me-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .photo {
+    height: 200px;
+    width: 200px;
+  }
+  .about-me-info {
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  .about-me-logos-container {
+    width: 175px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .about-me-text {
+    font-size: 10px;
+  }
+  .about-me-button {
+    width: 50px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .landing-name {
+    font-size: 50px;
+  }
+  .landing-title {
+    font-size: 10px;
+  }
+  .landing-button {
+    font-size: 10px;
+  }
+  .nav-links {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .links-container {
+    margin-right: 5px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .projects-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .project-container {
+    border-radius: 15px;
+    width: 85vw;
+    height: 300px;
+    margin: 10px auto;
+  }
+  .name-image-container {
+    width: 250px;
+    height: 140px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .project-image {
+    width: 200px;
+    margin: 5px auto;
+  }
+  .project-info-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: 3px;
+  }
+  .project-description {
+    margin: 5px;
+    font-size: 10px;
+  }
+  .project-link {
+    margin: auto 8px;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .project-logo {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1190px) {
+  .landing-name {
+    font-size: 100px;
+  }
+  .project-container {
+    margin: 10px;
+    height: 350px;
+  }
+  .name-image-container {
+    height: 140px;
+  }
+  .project-image {
+    margin: 8px auto;
+  }
+  .project-info-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: 3px;
+  }
+  .project-description {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .project-link {
+    margin: 18px;
+    padding: 3px 4px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .project-logo {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+body {
+  background-color: #4c90a2;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}

@@ -1,6 +1,5 @@
 import JuliosKitchen from "../assets/Julios-Kitchen.jpg";
 import webLogo from "../assets/icons8-website-64.png";
-import "../styles/Projects.css";
 
 export default function Project1() {
   return (

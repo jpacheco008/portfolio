@@ -1,6 +1,5 @@
 import CoolRidings from "../assets/Cool-Ridings.jpg";
 import webLogo from "../assets/icons8-website-64.png";
-import "../styles/Projects.css";
 
 export default function Project2() {
   return (

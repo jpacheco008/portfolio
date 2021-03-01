@@ -4,7 +4,7 @@ import AboutMe from "./screens/AboutMe";
 import Contact from "./screens/Contact";
 import Landing from "./screens/Landing";
 import Portfolio from "./screens/Portfolio";
-import "./App.css";
+import "./css/main.css";
 
 function App() {
   return (

@@ -1,0 +1,21 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links-container {
+  margin-right: 50px;
+}
+.logo {
+  width: 100px;
+}
+.nav-links {
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+

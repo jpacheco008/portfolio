@@ -1,0 +1,117 @@
+@include media-mobile {
+  .about-me-container {
+    flex-flow: column;
+  }
+  .photo {
+    height: 200px;
+    width: 200px;
+  }
+  .about-me-info {
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+  .about-me-logos-container {
+    width: 175px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .about-me-text {
+    font-size: 10px;
+  }
+  .about-me-button {
+    width: 50px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .landing-name {
+    font-size: 50px;
+  }
+  .landing-title {
+    font-size: 10px;
+  }
+  .landing-button {
+    font-size: 10px;
+  }
+  .nav-links {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .links-container {
+    margin-right: 5px;
+  }
+  .logo {
+    width: 50px;
+  }
+  .projects-container {
+    flex-flow: column;
+  }
+  .project-container {
+    border-radius: 15px;
+    width: 85vw;
+    height: 300px;
+    margin: 10px auto;
+  }
+  .name-image-container {
+    width: 250px;
+    height: 140px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  .project-image {
+    width: 200px;
+    margin: 5px auto;
+  }
+  .project-info-container {
+    flex-flow: column;
+    margin: 3px;
+  }
+  .project-description {
+    margin: 5px;
+    font-size: 10px;
+  }
+  .project-link {
+    margin: auto 8px;
+    padding: 0px 4px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .project-logo {
+    width: 10px;
+    height: 10px;
+  }
+}
+@include media-table {
+  .landing-name {
+    font-size: 100px;
+  }
+  .project-container {
+    margin: 10px;
+    height: 350px;
+  }
+  .name-image-container {
+    height: 140px;
+  }
+  .project-image {
+    margin: 8px auto;
+  }
+  .project-info-container {
+    flex-flow: column;
+    margin: 3px;
+  }
+  .project-description {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .project-link {
+    margin: 18px ;
+    padding: 3px 4px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+  .project-logo {
+    width: 10px;
+    height: 10px;
+  }
+}
