@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+$primary-color: #3e6b89;
+$secondary-color: #3dd2cc;
+$title-font: "Yellowtail", cursive;
+$primary-font: "Nunito", sans-serif;
+$box-background: #63bbd3;
+$background-color: #4c90a2;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin media-mobile {
+  @media screen and (max-width: 720px) {
+    @content;
+  }
+}
+@mixin media-table {
+  @media only screen and (min-width: 721px) and (max-width: 1190px) {
+    @content;
+  }
+}

@@ -1,4 +1,3 @@
-import "../styles/Contact.css";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";

@@ -1,0 +1,14 @@
+@import 'config';
+@import 'landing';
+@import 'about';
+@import 'contact';
+@import 'nav';
+@import 'portfolio';
+@import 'projects';
+@import 'responsive';
+
+body {
+  background-color: $background-color;
+  height: 100vh;
+  font-family: $primary-font;
+}

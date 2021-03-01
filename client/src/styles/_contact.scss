@@ -1,11 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-
 .contact-container {
   display: flex;
   flex-flow: column;
 }
 .contact-text {
-  font-family: "Nunito", sans-serif;
   margin: 5vh auto;
   text-align: center;
 }
@@ -15,16 +12,16 @@
 .contact-icon {
   width: 40px;
   margin: 0 40px;
-}
-.contact-icon:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .form-container {
-  background-color: #63bbd3;
+  background-color: $secondary-color;
   width: 210px;
   margin: 0 auto;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px 2px #3e6b89;
+  box-shadow: 2px 2px 2px 2px $primary-color;
 }
 .contact-form {
   display: flex;
@@ -41,10 +38,10 @@
 }
 .form-buttom {
   margin: 5px auto;
-  border: 2px solid #3e6b89;
+  padding: 3px;
+  border: 2px solid $primary-color;
   border-radius: 5px;
   font-size: 15px;
-  background-color: #3e6b89;
-  font-family: "Nunito", sans-serif;
+  background-color: $primary-color;
   font-weight: 700;
 }

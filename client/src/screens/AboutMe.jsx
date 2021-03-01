@@ -1,5 +1,4 @@
 import Me from "../assets/Me.jpg";
-import "../styles/AboutMe.css";
 
 export default function AboutMe() {
   return (

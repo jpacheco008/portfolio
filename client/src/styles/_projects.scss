@@ -1,0 +1,63 @@
+.project-container {
+  display: flex;
+  flex-flow: column;
+  border-radius: 15px;
+  width: 45vw;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px 2px $primary-color;
+  background-color: $secondary-color;
+}
+.name-image-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 250px;
+  height: 180px;
+  background-color: $primary-color;
+  margin: 15px;
+  border-radius: 10px;
+}
+.project-name {
+  text-align: center;
+  margin: 5px;
+}
+.project-image {
+  width: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.project-info-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin: 15px;
+}
+.project-description {
+  text-align: left;
+  margin: 10px;
+  font-size: 15px;
+}
+.project-links-containers {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.project-link {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: auto 20px;
+  padding: 4px 8px;
+  border: 2px solid $primary-color;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.project-logo {
+  width: 25px;
+  height: 25px;
+  margin: 0px 5px;
+}
+
