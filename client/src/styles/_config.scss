@@ -7,11 +7,16 @@ $title-font: "Yellowtail", cursive;
 $primary-font: "Nunito", sans-serif;
 $box-background: #63bbd3;
 $background-color: #4c90a2;
+$font-color: whitesmoke;
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+@mixin transition-ease {
+  transition: all .5s ease-in-out;
 }
 
 @mixin media-mobile {
