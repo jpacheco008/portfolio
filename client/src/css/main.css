@@ -18,6 +18,11 @@
   margin: 50px auto;
 }
 
+.landing-container span {
+  height: 2px;
+  position: relative;
+}
+
 @-webkit-keyframes neon {
   from {
     text-shadow: 0 0 2px #3dd2cc, 0 0 10px #3dd2cc, 0 0 15px #3dd2cc, 0 0 20px #3e6b89, 0 0 25px #3e6b89, 0 0 30px #3e6b89, 0 0 35px #3e6b89;
@@ -42,33 +47,60 @@
   font-size: 160px;
   letter-spacing: 5px;
   color: whitesmoke;
-  -webkit-animation: neon 1.9s ease-in infinite;
-          animation: neon 1.9s ease-in infinite;
+  position: relative;
+  top: 30px;
 }
 
 .landing-title {
   margin: 10px auto;
   font-family: "Nunito", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .landing-button {
-  width: 160px;
+  width: 200px;
   height: 40px;
   font-family: "Nunito", sans-serif;
   font-size: 15px;
   font-weight: 700;
-  border: 2px solid #3e6b89;
   background-color: #3e6b89;
   border-radius: 5px;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  color: white;
+  color: whitesmoke;
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
-.landing-button:hover {
-  background-color: #3dd2cc;
-  color: black;
+.landing-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.landing-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.landing-button:hover span {
+  padding-right: 25px;
+}
+
+.landing-button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .landing-button-link {
@@ -102,7 +134,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  width: 400px;
+  width: 450px;
   margin: auto 80px auto 0px;
   padding: 2vw;
   border-radius: 15px;
@@ -148,7 +180,7 @@ i {
   text-decoration: none;
   color: white;
   padding: 5px 5px;
-  border: 2px solid #3e6b89;
+  border: none;
   border-radius: 5px;
   font-size: 15px;
   font-weight: 700;
@@ -156,9 +188,10 @@ i {
   cursor: pointer;
 }
 
-.about-me-button:hover {
-  background-color: #3dd2cc;
-  color: black;
+.about-me-button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  outline: none;
 }
 
 .about-me-button-link {
@@ -345,7 +378,7 @@ i {
           justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: grey;
+  background: rgba(136, 134, 134, 0.945);
   list-style-type: none;
   padding-right: 1rem;
   -webkit-transform: translateY(-100%);
@@ -372,7 +405,7 @@ i {
 }
 
 .nav .menu-nav-item.active > Link {
-  color: orange;
+  color: #3e6b89;
 }
 
 .nav .menu-nav-link {
@@ -381,12 +414,14 @@ i {
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
+  text-decoration: none;
+  color: whitesmoke;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
 
 .nav .menu-nav-link:hover {
-  color: orange;
+  color: #3e6b89;
 }
 
 .menu-nav-item:nth-child(1) {
@@ -564,6 +599,7 @@ i {
   }
   .landing-button {
     font-size: 10px;
+    width: 140px;
   }
   .nav-links {
     margin: 5px;
@@ -654,6 +690,10 @@ i {
   .project-logo {
     width: 10px;
     height: 10px;
+  }
+  .landing-button {
+    width: 170px;
+    font-size: 15px;
   }
 }
 

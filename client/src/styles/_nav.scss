@@ -3,21 +3,10 @@
   justify-content: space-between;
   align-items: center;
 }
-// .links-container {
-//   margin-right: 50px;
-// }
+
 .logo {
   width: 100px;
 }
-// .nav-links {
-//   margin: 20px;
-//   text-decoration: none;
-//   font-weight: 600;
-//   color: #000;
-//   &:hover{
-//     text-decoration: underline;
-//   }
-// }
 
 .menu-btn {
   position: absolute;
@@ -93,7 +82,7 @@
     justify-content: center;
     height: 100vh;
     overflow: hidden;
-    background: grey;
+    background: rgba(136, 134, 134, 0.945);
     list-style-type: none;
     padding-right: 1rem;
     transform: translateY(-100%);
@@ -112,7 +101,7 @@
       }
 
       &.active > Link {
-        color: orange;
+        color: $primary-color;
       }
     }
 
@@ -122,10 +111,12 @@
       text-transform: uppercase;
       padding: 1rem 0;
       font-weight: 300;
+      text-decoration: none;
+      color: $font-color;
       @include transition-ease;
 
       &:hover {
-        color: orange;
+        color: $primary-color;
       }
     }
   }

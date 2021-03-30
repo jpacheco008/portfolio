@@ -15,14 +15,18 @@ export default function AboutMe() {
           of the unknown. I enjoy the pursuit of knowledge, and accomplishing
           new and exciting projects.
         </h3>
+        <br />
         <a
           className="about-me-button-link"
           target="_blank"
           rel="noreferrer"
           href="https://drive.google.com/file/d/1aL-2t5Qmwdyp1X9GTTzLwgrqVa4oqabH/view?usp=sharing"
-        >
-          <button className="about-me-button">Resume</button>
+          >
+          <button className="about-me-button">
+            <span>Resume</span>
+          </button>
         </a>
+          <br/>
         <h3 className="about-me-text">
           Here are the technologies I have worked with:
         </h3>
@@ -46,6 +50,7 @@ export default function AboutMe() {
             <i className="devicon-react-original-wordmark"></i>
             <i className="devicon-ruby-plain"></i>
             <i className="devicon-xd-line"></i>
+            <i className="devicon-sass-original"></i>
           </div>
         </div>
       </div>
