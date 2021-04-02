@@ -12,7 +12,7 @@ export default function Project1() {
         <p className="project-description">
           This React application allows the user to keep track of all the orders
           being placed by other users. The application uses HTML, CSS,
-          Javascript, and Airtable for API calls.
+          Javascript,Airtable and REST API.
         </p>
       </div>
       <div className="project-links-containers">

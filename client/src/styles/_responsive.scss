@@ -33,6 +33,7 @@
   }
   .landing-button {
     font-size: 10px;
+    width: 140px;
   }
   .nav-links {
     margin: 5px;
@@ -65,6 +66,8 @@
   }
   .project-info-container {
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
     margin: 3px;
   }
   .project-description {
@@ -99,13 +102,15 @@
   .project-info-container {
     flex-flow: column;
     margin: 3px;
+    justify-content: center;
+    align-items: center;
   }
   .project-description {
     margin: 5px;
     font-size: 12px;
   }
   .project-link {
-    margin: 18px ;
+    margin: 18px;
     padding: 3px 4px;
     border-radius: 5px;
     font-size: 8px;
@@ -113,5 +118,9 @@
   .project-logo {
     width: 10px;
     height: 10px;
+  }
+  .landing-button {
+    width: 170px;
+    font-size: 15px;
   }
 }

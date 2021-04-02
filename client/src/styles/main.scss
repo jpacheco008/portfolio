@@ -10,5 +10,12 @@
 body {
   background-color: $background-color;
   height: 100vh;
+  width: 100vw;
   font-family: $primary-font;
+  background-image: 
+  linear-gradient(to bottom, rgba(76, 144, 162, .85), rgba(76, 144, 162, .85)), 
+  url('../assets/collage.jpg');
+  background-size: 100% 100%; 
+  color: $font-color;
+  overflow: none;
 }

@@ -14,7 +14,7 @@ export default function Project3() {
           selection of fictional coffees generated with Fakker. The user will be
           able to make an account, and have more functionality available (leave
           a comment on a coffee). This application uses CSS, Javascript, React,
-          Ruby, and Ruby on Rails.
+          Ruby, REST API and Ruby on Rails.
         </p>
       </div>
       <div className="project-links-containers">
