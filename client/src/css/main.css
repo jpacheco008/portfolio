@@ -20,7 +20,6 @@
 
 .landing-container span {
   height: 2px;
-  position: relative;
 }
 
 @-webkit-keyframes neon {
@@ -47,7 +46,6 @@
   font-size: 160px;
   letter-spacing: 5px;
   color: whitesmoke;
-  position: relative;
   top: 30px;
 }
 
@@ -76,31 +74,10 @@
   margin: 5px;
 }
 
-.landing-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.landing-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.landing-button:hover span {
-  padding-right: 25px;
-}
-
-.landing-button:hover span:after {
-  opacity: 1;
-  right: 0;
+.landing-button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  outline: none;
 }
 
 .landing-button-link {

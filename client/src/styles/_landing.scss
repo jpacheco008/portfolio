@@ -6,10 +6,7 @@
 }
 
 .landing-container span {
-  // background-color: $font-color;
   height: 2px;
-  position: relative;
-  // bottom: 30px;
 }
 @keyframes neon {
   from {
@@ -27,7 +24,6 @@
   font-size: 160px;
   letter-spacing: 5px;
   color: whitesmoke;
-  position: relative;
   top: 30px;
   // animation: neon 1.9s ease-in infinite;
 }
@@ -55,32 +51,10 @@
   cursor: pointer;
   margin: 5px;
 
-  & span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+  &:active {
+    transform: scale(0.95);
+    outline: none;
   }
-
-  & span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-
-  &:hover span{
-    padding-right: 25px;
-  }
-
-  &:hover span:after {
-      opacity: 1;
-      right: 0;
-  }
-
 }
 .landing-button-link {
   margin: 15px auto;
