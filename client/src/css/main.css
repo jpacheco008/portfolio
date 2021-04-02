@@ -489,9 +489,7 @@ i {
           justify-content: center;
   width: 250px;
   height: 180px;
-  background-color: #3e6b89;
   margin: 15px;
-  border-radius: 10px;
 }
 
 .project-name {
@@ -501,8 +499,6 @@ i {
 
 .project-image {
   width: 200px;
-  margin: 10px;
-  border-radius: 5px;
 }
 
 .project-info-container {
@@ -513,10 +509,8 @@ i {
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin: 15px;
+  color: black;
 }
 
 .project-description {
@@ -638,6 +632,12 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 3px;
   }
   .project-description {
@@ -676,6 +676,12 @@ i {
         -ms-flex-flow: column;
             flex-flow: column;
     margin: 3px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .project-description {
     margin: 5px;

@@ -66,6 +66,8 @@
   }
   .project-info-container {
     flex-flow: column;
+    justify-content: center;
+    align-items: center;
     margin: 3px;
   }
   .project-description {
@@ -100,6 +102,8 @@
   .project-info-container {
     flex-flow: column;
     margin: 3px;
+    justify-content: center;
+    align-items: center;
   }
   .project-description {
     margin: 5px;
