@@ -17,7 +17,7 @@ export default function Project3() {
         </p>
       </div>
       <div className="project-links-containers">
-        <a
+        {/* <a
           target="_blank"
           rel="noreferrer"
           className="project-link"
@@ -38,7 +38,7 @@ export default function Project3() {
             alt="github"
             className="project-logo"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );
