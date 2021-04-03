@@ -18,6 +18,15 @@ export default function Nav() {
           <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
             <Link
               className="menu-nav-link"
+              to="/"
+              onClick={() => setMenuActive(!menuActive)}
+            >
+              HOME
+            </Link>
+          </li>
+          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+            <Link
+              className="menu-nav-link"
               to="/about-me"
               onClick={() => setMenuActive(!menuActive)}
             >
