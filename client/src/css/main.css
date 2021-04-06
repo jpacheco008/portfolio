@@ -451,6 +451,7 @@ i {
   -webkit-box-shadow: 2px 2px 2px 2px #3e6b89;
           box-shadow: 2px 2px 2px 2px #3e6b89;
   background-color: #3dd2cc;
+  opacity: .7;
 }
 
 .name-image-container {

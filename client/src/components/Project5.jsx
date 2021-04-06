@@ -1,27 +1,28 @@
-import FirstClass from "../assets/NCFirstClass_Logo-Variations-01.png";
-
+import DoItRight from "../assets/Do_It_Right.jpg";
+import webLogo from "../assets/icons8-website-64.png";
 
 export default function Project3() {
   return (
     <div className="project-container">
       <div className="project-info-container">
         <div className="name-image-container">
-          <h3 className="project-name">First Class NC</h3>
-          <img src={FirstClass} alt="project" className="project-image" />
+          <h3 className="project-name">Do It Right</h3>
+          <img src={DoItRight} alt="project" className="project-image" />
         </div>
         <p className="project-description">
-          First Class NC  is a freelance web store under construction. This store will
-          have it's own database, user and admin authorization, order tracking and payment
-          processing. This application uses SCSS, Javascript, React, Ruby, REST API and
-          Ruby on Rails.
+          Do It Right is a chrome extension built for a Hackaton competion.
+          The app gives you the true information of a restaurant while on
+          websites like doordash to order from the small business directly.
+          It was created with the help of UX designers, Data engineers and
+          other software engineers.
         </p>
       </div>
       <div className="project-links-containers">
-        {/* <a
+        <a
           target="_blank"
           rel="noreferrer"
           className="project-link"
-          href="https://modest-tesla-2c628d.netlify.app"
+          href="https://chrome.google.com/webstore/detail/do-it-right/fologgfgadjcdjemgkohffpbbcegmipb"
         >
           <p>To live site</p>
           <img src={webLogo} alt="live-site" className="project-logo" />{" "}
@@ -30,7 +31,7 @@ export default function Project3() {
           target="_blank"
           rel="noreferrer"
           className="project-link"
-          href="https://github.com/jpacheco008/caffeine_explorer"
+          href="https://github.com/Rest4-Hackathon/Small-Biz-Rest"
         >
           <p>To Github Repo</p>
           <img
@@ -38,7 +39,7 @@ export default function Project3() {
             alt="github"
             className="project-logo"
           />
-        </a> */}
+        </a>
       </div>
     </div>
   );
