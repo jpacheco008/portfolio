@@ -1,5 +1,4 @@
 import CaffeineExplorer from "../assets/Caffeine-Explorer.jpg";
-import webLogo from "../assets/icons8-website-64.png";
 
 export default function Project3() {
   return (
@@ -12,8 +11,8 @@ export default function Project3() {
         <p className="project-description">
           CAFFEINE EXPLORER is an app that allows the user to browse through a
           selection of fictional coffees generated with Fakker. The user will be
-          able to make an account, and have more functionality available (leave
-          a comment on a coffee). This application uses CSS, Javascript, React,
+          able to make an account, and have more functionality available such as leaving
+          a comment on a coffee and saving a favotire's list. This application uses CSS, Javascript, React,
           Ruby, REST API and Ruby on Rails.
         </p>
       </div>
@@ -25,7 +24,7 @@ export default function Project3() {
           href="https://modest-tesla-2c628d.netlify.app"
         >
           <p>To live site</p>
-          <img src={webLogo} alt="live-site" className="project-logo" />{" "}
+          <i class="fas fa-globe fa-2x"></i>
         </a>
         <a
           target="_blank"
@@ -34,11 +33,7 @@ export default function Project3() {
           href="https://github.com/jpacheco008/caffeine_explorer"
         >
           <p>To Github Repo</p>
-          <img
-            src="https://image.flaticon.com/icons/png/512/25/25231.png"
-            alt="github"
-            className="project-logo"
-          />
+          <i className="fab fa-github fa-2x"></i>
         </a>
       </div>
     </div>

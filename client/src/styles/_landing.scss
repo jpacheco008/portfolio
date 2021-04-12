@@ -18,6 +18,15 @@
       0 0 40px $primary-color, 0 0 45px $primary-color, 0 0 50px $primary-color, 0 0 50px $primary-color;
   }
 }
+@keyframes orbs {
+  from{
+
+  }
+  to{
+
+  }
+}
+
 .landing-name {
   margin: 15px auto;
   font-family: $title-font;
@@ -59,4 +68,3 @@
 .landing-button-link {
   margin: 15px auto;
 }
-
