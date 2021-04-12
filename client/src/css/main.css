@@ -648,6 +648,7 @@ i {
   }
   .logo {
     width: 50px;
+    top: 5px;
   }
   .projects-container {
     -webkit-box-orient: vertical;
