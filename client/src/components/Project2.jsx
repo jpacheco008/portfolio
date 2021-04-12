@@ -1,5 +1,4 @@
 import CoolRidings from "../assets/Cool-Ridings.jpg";
-import webLogo from "../assets/icons8-website-64.png";
 
 export default function Project2() {
   return (
@@ -25,7 +24,7 @@ export default function Project2() {
           href="https://sleepy-lewin-9c4a68.netlify.app"
         >
           <p>To live site</p>
-          <img src={webLogo} alt="live-site" className="project-logo" />{" "}
+          <i class="fas fa-globe fa-2x"></i>
         </a>
         <a
           target="_blank"
@@ -34,11 +33,7 @@ export default function Project2() {
           href="https://github.com/jpacheco008/Cool-Ridings"
         >
           <p>To Github Repo</p>
-          <img
-            src="https://image.flaticon.com/icons/png/512/25/25231.png"
-            alt="github"
-            className="project-logo"
-          />
+          <i className="fab fa-github fa-2x"></i>
         </a>
       </div>
     </div>
