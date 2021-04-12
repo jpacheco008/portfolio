@@ -40,6 +40,20 @@
   }
 }
 
+@-webkit-keyframes orbs {
+  from {
+  }
+  to {
+  }
+}
+
+@keyframes orbs {
+  from {
+  }
+  to {
+  }
+}
+
 .landing-name {
   margin: 15px auto;
   font-family: "Yellowtail", cursive;
@@ -102,6 +116,8 @@
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .about-me-info {
@@ -116,6 +132,8 @@
   margin: auto 80px auto 0px;
   padding: 2vw;
   border-radius: 15px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .about-me-logos {
@@ -209,17 +227,23 @@ i {
   margin: 0 40px;
 }
 
+.contact-icon:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .contact-icon:hover {
   cursor: pointer;
 }
 
 .form-container {
-  background-color: #3dd2cc;
+  background-color: transparent;
   width: 210px;
   margin: 0 auto;
   border-radius: 20px;
   -webkit-box-shadow: 2px 2px 2px 2px #3e6b89;
           box-shadow: 2px 2px 2px 2px #3e6b89;
+  border: 2px solid #3dd2cc;
 }
 
 .contact-form {
@@ -255,6 +279,15 @@ i {
   font-size: 15px;
   background-color: #3e6b89;
   font-weight: 700;
+}
+
+.form-buttom:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.form-buttom:hover {
+  cursor: pointer;
 }
 
 .nav-container {
