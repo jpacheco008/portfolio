@@ -47,12 +47,13 @@
   }
   .projects-container {
     flex-flow: column;
+    justify-content: center;
+    margin: 0 auto;
   }
   .project-container {
     border-radius: 15px;
     width: 85vw;
     height: 300px;
-    margin: 10px auto;
   }
   .name-image-container {
     width: 250px;
