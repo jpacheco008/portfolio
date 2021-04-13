@@ -4,12 +4,16 @@ import AboutMe from "./screens/AboutMe";
 import Contact from "./screens/Contact";
 import Landing from "./screens/Landing";
 import Portfolio from "./screens/Portfolio";
+import Test from "./screens/Test";
 import "./css/main.css";
 
 function App() {
   return (
     <Layout>
       <Switch>
+        <Route path="/test">
+          <Test />
+        </Route>
         <Route path="/about-me">
           <AboutMe />
         </Route>
