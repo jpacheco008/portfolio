@@ -13,7 +13,7 @@ export default function Project2() {
           with authentification. Users with admin privileges will be able to
           add/delete items and edit items information. This app was created in
           colaboration with two other developers. The application uses CSS,
-          Javascript, REST API and React.
+          Javascript, and React.
         </p>
       </div>
       <div className="project-links-containers">
