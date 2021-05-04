@@ -12,8 +12,8 @@ export default function Project3() {
         <p className="project-description">
           First Class NC  is a freelance web store under construction. This store will
           have it's own database, user and admin authorization, order tracking and payment
-          processing. This application uses SCSS, Javascript, React, Ruby, REST API and
-          Ruby on Rails.
+          processing. This application uses Bootstrap, Javascript, React, Redux, Python, and
+          Django REST API framework.
         </p>
       </div>
       <div className="project-links-containers">
