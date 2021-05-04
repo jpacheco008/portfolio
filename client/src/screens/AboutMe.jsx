@@ -51,6 +51,10 @@ export default function AboutMe() {
             <i className="devicon-ruby-plain"></i>
             <i className="devicon-xd-line"></i>
             <i className="devicon-sass-original"></i>
+            <i className="devicon-bootstrap-plain-wordmark"></i>
+            <i className="devicon-django-plain"></i>
+            <i className="devicon-python-plain-wordmark"></i>
+            <i className="devicon-redux-original"></i>
           </div>
         </div>
       </div>
