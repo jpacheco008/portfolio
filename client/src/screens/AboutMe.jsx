@@ -20,7 +20,7 @@ export default function AboutMe() {
           className="about-me-button-link"
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/1aL-2t5Qmwdyp1X9GTTzLwgrqVa4oqabH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1--aQ2MlpmLINCm9tmAUeUV2MXEwqc1EO/view?usp=sharing"
           >
           <button className="about-me-button">
             <span>Resume</span>
