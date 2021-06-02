@@ -17,16 +17,16 @@ export default function Project3() {
         </p>
       </div>
       <div className="project-links-containers">
-        {/* <a
+        <a
           target="_blank"
           rel="noreferrer"
           className="project-link"
-          href="https://modest-tesla-2c628d.netlify.app"
+          href="https://ncfirstclass.herokuapp.com"
         >
           <p>To live site</p>
-          <img src={webLogo} alt="live-site" className="project-logo" />{" "}
+          <i class="fas fa-globe fa-2x"></i>
         </a>
-        <a
+        {/* <a
           target="_blank"
           rel="noreferrer"
           className="project-link"

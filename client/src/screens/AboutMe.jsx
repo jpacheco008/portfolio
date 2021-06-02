@@ -6,7 +6,7 @@ export default function AboutMe() {
       <img src={Me} alt="headshot" className="photo" />
       <div className="about-me-info">
         <h3 className="about-me-text">
-          Hi, my name is Julio, and I am a software engineer.  I also have a background in electrical
+          Hi, my name is Julio, and I am a software engineer.  I also  have a background in electrical
           engineering, and am a veteran of the U.S. Navy. 
           <br />
           <br />
