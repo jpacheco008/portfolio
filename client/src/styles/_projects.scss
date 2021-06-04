@@ -2,45 +2,35 @@
   display: flex;
   flex-flow: column;
   border-radius: 15px;
-  width: 45vw;
-  height: 300px;
+  width: 30vw;
+  height: 37vh;
   margin: 20px;
   box-shadow: 2px 2px 2px 2px $primary-color;
-  background-color: $secondary-color;
-  opacity: .7;
-}
-.name-image-container {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  width: 250px;
-  height: 180px;
-  margin: 15px;
+  background: transparent;
+  perspective: 1000px;
 }
 .project-name {
   text-align: center;
   margin: 5px;
 }
 .project-image {
-  width: 200px;
-}
-.project-info-container {
   display: flex;
-  flex-flow: row;
-  margin: 15px;
-  color: black;
+  flex-flow: column;
+  justify-content: center;
+  width: 260px;
+  margin: 3px auto;
 }
-.project-description {
-  text-align: left;
-  margin: 10px;
-  font-size: 15px;
-}
-.project-links-containers {
+.project-links-containers,
+.project-links-containers-back {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin-bottom: 5px;
 }
-.project-link {
+.project-link,
+.project-link-back {
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -51,19 +41,48 @@
   border: 2px solid $primary-color;
   border-radius: 5px;
   font-size: 12px;
+  background: transparent;
+  transition: transform 0.5s ease-out;
 
-  &:hover{
+  &:hover {
     color: #fff;
-    transition: 0.8s ease;
-    
-    .fas.fa-globe{
+    transition: 0.8s;
+
+    .fas.fa-globe {
       color: #fff;
       transition: 0.8s ease;
     }
-    .fab.fa-github{
+    .fab.fa-github {
       color: #fff;
       transition: 0.8s ease;
     }
   }
 }
 
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  color: black;
+  transform: rotateY(180deg);
+}
+.project-link-back {
+  transform: rotateY(180deg);
+}
