@@ -704,6 +704,9 @@ i {
     border-radius: 5px;
     font-size: 8px;
   }
+  .card-back {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 721px) and (max-width: 1230px) {
