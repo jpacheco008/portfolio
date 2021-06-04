@@ -499,16 +499,22 @@ i {
       -ms-flex-flow: column;
           flex-flow: column;
   border-radius: 15px;
-  width: 45vw;
-  height: 300px;
+  width: 30vw;
+  height: 37vh;
   margin: 20px;
   -webkit-box-shadow: 2px 2px 2px 2px #3e6b89;
           box-shadow: 2px 2px 2px 2px #3e6b89;
-  background-color: #3dd2cc;
-  opacity: .7;
+  background: transparent;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 
-.name-image-container {
+.project-name {
+  text-align: center;
+  margin: 5px;
+}
+
+.project-image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -519,49 +525,26 @@ i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 250px;
-  height: 180px;
-  margin: 15px;
+  width: 260px;
+  margin: 3px auto;
 }
 
-.project-name {
-  text-align: center;
-  margin: 5px;
-}
-
-.project-image {
-  width: 200px;
-}
-
-.project-info-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
-  margin: 15px;
-  color: black;
-}
-
-.project-description {
-  text-align: left;
-  margin: 10px;
-  font-size: 15px;
-}
-
-.project-links-containers {
+.project-links-containers,
+.project-links-containers-back {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 10px;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin-bottom: 5px;
 }
 
-.project-link {
+.project-link,
+.project-link-back {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,24 +562,71 @@ i {
   border: 2px solid #3e6b89;
   border-radius: 5px;
   font-size: 12px;
+  background: transparent;
+  -webkit-transition: -webkit-transform 0.5s ease-out;
+  transition: -webkit-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 
-.project-link:hover {
+.project-link:hover,
+.project-link-back:hover {
+  color: #fff;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.project-link:hover .fas.fa-globe,
+.project-link-back:hover .fas.fa-globe {
   color: #fff;
   -webkit-transition: 0.8s ease;
   transition: 0.8s ease;
 }
 
-.project-link:hover .fas.fa-globe {
+.project-link:hover .fab.fa-github,
+.project-link-back:hover .fab.fa-github {
   color: #fff;
   -webkit-transition: 0.8s ease;
   transition: 0.8s ease;
 }
 
-.project-link:hover .fab.fa-github {
-  color: #fff;
-  -webkit-transition: 0.8s ease;
-  transition: 0.8s ease;
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5px;
+  color: black;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.project-link-back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 @media screen and (max-width: 720px) {
@@ -662,88 +692,36 @@ i {
   }
   .project-container {
     border-radius: 15px;
-    width: 85vw;
-    height: 300px;
-  }
-  .name-image-container {
-    width: 250px;
-    height: 140px;
-    margin: 5px;
-    border-radius: 10px;
+    width: 70vw;
+    height: 200px;
   }
   .project-image {
     width: 200px;
-    margin: 5px auto;
   }
-  .project-info-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 3px;
-  }
-  .project-description {
-    margin: 5px;
-    font-size: 10px;
-  }
-  .project-link {
+  .project-link, .project-link-back {
     margin: auto 8px;
     padding: 0px 4px;
     border-radius: 5px;
     font-size: 8px;
   }
-  .project-logo {
-    width: 10px;
-    height: 10px;
-  }
 }
 
-@media only screen and (min-width: 721px) and (max-width: 1190px) {
+@media only screen and (min-width: 721px) and (max-width: 1230px) {
   .landing-name {
     font-size: 100px;
   }
   .project-container {
-    margin: 10px;
-    height: 350px;
-  }
-  .name-image-container {
-    height: 140px;
+    width: 40vw;
+    height: 40vh;
   }
   .project-image {
-    margin: 8px auto;
+    width: 250px;
   }
-  .project-info-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-    margin: 3px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .project-description {
-    margin: 5px;
-    font-size: 12px;
-  }
-  .project-link {
+  .project-link, .project-link-back {
     margin: 18px;
     padding: 3px 4px;
     border-radius: 5px;
     font-size: 8px;
-  }
-  .project-logo {
-    width: 10px;
-    height: 10px;
   }
   .landing-button {
     width: 170px;

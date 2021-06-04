@@ -53,38 +53,17 @@
   }
   .project-container {
     border-radius: 15px;
-    width: 85vw;
-    height: 300px;
-  }
-  .name-image-container {
-    width: 250px;
-    height: 140px;
-    margin: 5px;
-    border-radius: 10px;
+    width: 70vw;
+    height: 200px;
   }
   .project-image {
     width: 200px;
-    margin: 5px auto;
   }
-  .project-info-container {
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    margin: 3px;
-  }
-  .project-description {
-    margin: 5px;
-    font-size: 10px;
-  }
-  .project-link {
+  .project-link,.project-link-back {
     margin: auto 8px;
     padding: 0px 4px;
     border-radius: 5px;
     font-size: 8px;
-  }
-  .project-logo {
-    width: 10px;
-    height: 10px;
   }
 }
 @include media-table {
@@ -92,34 +71,17 @@
     font-size: 100px;
   }
   .project-container {
-    margin: 10px;
-    height: 350px;
-  }
-  .name-image-container {
-    height: 140px;
+    width: 40vw;
+    height: 40vh;
   }
   .project-image {
-    margin: 8px auto;
+    width: 250px;
   }
-  .project-info-container {
-    flex-flow: column;
-    margin: 3px;
-    justify-content: center;
-    align-items: center;
-  }
-  .project-description {
-    margin: 5px;
-    font-size: 12px;
-  }
-  .project-link {
+  .project-link, .project-link-back {
     margin: 18px;
     padding: 3px 4px;
     border-radius: 5px;
     font-size: 8px;
-  }
-  .project-logo {
-    width: 10px;
-    height: 10px;
   }
   .landing-button {
     width: 170px;
