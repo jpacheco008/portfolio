@@ -24,13 +24,11 @@
 .about-me-logos {
   display: flex;
   flex-flow: row wrap;
-  width: 290px;
   margin: 5px auto;
   font-size: 30px;
   &-container {
     display: flex;
     flex-flow: row wrap;
-    width: 250px;
     padding: 10px;
     justify-content: center;
     margin: 0 auto;

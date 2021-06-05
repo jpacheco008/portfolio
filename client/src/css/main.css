@@ -144,7 +144,6 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 290px;
   margin: 5px auto;
   font-size: 30px;
 }
@@ -157,7 +156,6 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  width: 250px;
   padding: 10px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -277,6 +275,7 @@ i {
   border: 2px solid #3e6b89;
   border-radius: 5px;
   font-size: 15px;
+  color: whitesmoke;
   background-color: #3e6b89;
   font-weight: 700;
 }
@@ -499,14 +498,15 @@ i {
       -ms-flex-flow: column;
           flex-flow: column;
   border-radius: 15px;
-  width: 30vw;
-  height: 37vh;
+  width: 330px;
+  height: 250px;
   margin: 20px;
-  -webkit-box-shadow: 2px 2px 2px 2px #3e6b89;
-          box-shadow: 2px 2px 2px 2px #3e6b89;
-  background: transparent;
+  -webkit-box-shadow: 2px 2px 0px 0px #3dd2cc;
+          box-shadow: 2px 2px 0px 0px #3dd2cc;
+  background: #3e6b89;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+  opacity: .7;
 }
 
 .project-name {
@@ -559,7 +559,7 @@ i {
   color: black;
   margin: auto 20px;
   padding: 4px 8px;
-  border: 2px solid #3e6b89;
+  border: 2px solid #3dd2cc;
   border-radius: 5px;
   font-size: 12px;
   background: transparent;
@@ -619,7 +619,7 @@ i {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 5px;
-  color: black;
+  color: whitesmoke;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -692,7 +692,7 @@ i {
   }
   .project-container {
     border-radius: 15px;
-    width: 70vw;
+    width: 250px;
     height: 200px;
   }
   .project-image {
@@ -709,13 +709,13 @@ i {
   }
 }
 
-@media only screen and (min-width: 721px) and (max-width: 1230px) {
+@media only screen and (min-width: 721px) and (max-width: 1220px) {
   .landing-name {
     font-size: 100px;
   }
   .project-container {
-    width: 40vw;
-    height: 40vh;
+    width: 350px;
+    height: 265px;
   }
   .project-image {
     width: 250px;
