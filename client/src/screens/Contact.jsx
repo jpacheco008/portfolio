@@ -57,8 +57,8 @@ export default function Contact() {
     <div className="contact-container">
       <h2 className="contact-text">Let's Create Something Together</h2>
       <p className="contact-text">
-        If you like my work, please leave me a message. I would love to hear from
-        you!
+        If you like my work, please leave me a message. I would love to hear
+        from you!
       </p>
 
       <div className="form-container">

@@ -3,8 +3,8 @@ import CoolRidings from "../assets/Cool-Ridings.jpg";
 import CaffeineExplorer from "../assets/Caffeine-Explorer.jpg";
 import FirstClass from "../assets/NCFirstClass_Logo-Variations-01.png";
 import DoItRight from "../assets/Do_It_Right.jpg";
-import Project from "../components/Project"
-import ProjectPrivate from "../components/ProjectPrivate"
+import Project from "../components/Project";
+import ProjectPrivate from "../components/ProjectPrivate";
 
 export default function Portfolio() {
   return (
@@ -21,13 +21,13 @@ export default function Portfolio() {
         liveSite="https://chrome.google.com/webstore/detail/do-it-right/fologgfgadjcdjemgkohffpbbcegmipb"
       />
       <ProjectPrivate
-      name="NC First Class"
-      photo={FirstClass}
-      overview="NC First Class is a freelance web store under construction. This store will
-      have it's own database, user and admin authorization, order tracking and payment
-      processing. This application uses Bootstrap, Javascript, React, Redux, Python, and
-      Django REST API framework."
-      liveSite="https://ncfirstclass.herokuapp.com"
+        name="NC First Class"
+        photo={FirstClass}
+        overview="NC First Class is a freelance web store under construction. This store will
+        have it's own database, user and admin authorization, order tracking and payment
+        processing. This application uses Bootstrap, Javascript, React, Redux, Python, and
+        Django REST API framework."
+        liveSite="https://ncfirstclass.herokuapp.com"
       />
       <Project
         name="Caffeine Explorer"
