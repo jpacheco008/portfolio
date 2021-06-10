@@ -20,7 +20,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  margin: 80px auto;
+  margin: 0 auto;
 }
 
 .landing-container span {
@@ -60,7 +60,7 @@
 }
 
 .landing-name {
-  margin: 10px auto;
+  margin: 100px auto 0px auto;
   font-family: "Antic Didone", serif;
   font-size: 40px;
   letter-spacing: 5px;
@@ -72,6 +72,8 @@
   margin: 0 auto;
   font-family: "Antic Didone", serif;
   font-size: 20px;
+  font-style: italic;
+  letter-spacing: 4px;
 }
 
 .landing-button {
@@ -101,6 +103,12 @@
 
 .landing-button-link {
   margin: 15px auto;
+}
+
+.landing-photo {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .about-me-container {
@@ -169,14 +177,15 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  width: 175px;
+  width: 210px;
   padding: 5px;
   border-radius: 5px;
 }
 
 .about-me-text {
   font-size: 10px;
-  padding: 3px;
+  padding: 8px;
+  text-align: center;
 }
 
 i {
@@ -315,6 +324,13 @@ i {
   cursor: pointer;
 }
 
+.contact-photo {
+  margin-top: 25px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
 .nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,7 +371,7 @@ i {
   top: .5rem;
   width: 28px;
   height: 3px;
-  background: black;
+  background: whitesmoke;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
@@ -366,7 +382,7 @@ i {
   top: -8px;
   width: 28px;
   height: 3px;
-  background: black;
+  background: whitesmoke;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
@@ -377,7 +393,7 @@ i {
   top: 8px;
   width: 20px;
   height: 3px;
-  background: black;
+  background: whitesmoke;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
@@ -509,7 +525,6 @@ i {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
 }
 
 .sidenav-logo {
@@ -644,7 +659,7 @@ i {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
   border: 2px solid #3dd2cc;
   border-radius: 5px;
   background: transparent;
@@ -659,23 +674,23 @@ i {
 
 .project-link:hover,
 .project-link-back:hover {
-  color: #fff;
+  color: #3dd2cc;
   -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
 .project-link:hover .fas.fa-globe,
 .project-link-back:hover .fas.fa-globe {
-  color: #fff;
-  -webkit-transition: 0.8s ease;
-  transition: 0.8s ease;
+  color: #3dd2cc;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .project-link:hover .fab.fa-github,
 .project-link-back:hover .fab.fa-github {
-  color: #fff;
-  -webkit-transition: 0.8s ease;
-  transition: 0.8s ease;
+  color: #3dd2cc;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .card-inner {
@@ -725,12 +740,14 @@ i {
   .sidenav-container {
     visibility: visible;
     width: 125px;
+    padding: 10px;
   }
   .landing-container {
     margin-top: 10px;
   }
   .landing-name {
     font-size: 60px;
+    margin: 10px auto;
   }
   .landing-title {
     font-size: 25px;
@@ -771,4 +788,5 @@ body {
   background-size: 100% 100%;
   background-repeat: repeat;
   color: whitesmoke;
+  overflow-x: hidden;
 }
