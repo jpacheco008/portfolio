@@ -2,13 +2,14 @@
   display: flex;
   flex-flow: column;
   border-radius: 15px;
-  width: 330px;
-  height: 250px;
+  width: 250px;
+  height: 200px;
   margin: 20px;
   box-shadow: 2px 2px 0px 0px $secondary-color;
   background: $primary-color;
   perspective: 1000px;
-  opacity: .7;
+  opacity: 0.7;
+  border-radius: 15px;
 }
 .project-name {
   text-align: center;
@@ -18,7 +19,7 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 260px;
+  width: 200px;
   margin: 3px auto;
 }
 .project-links-containers,
@@ -37,13 +38,13 @@
   align-items: center;
   text-decoration: none;
   color: black;
-  margin: auto 20px;
-  padding: 4px 8px;
   border: 2px solid $secondary-color;
   border-radius: 5px;
-  font-size: 12px;
   background: transparent;
   transition: transform 0.5s ease-out;
+  margin: auto 8px;
+  padding: 0px 4px;
+  font-size: 8px;
 
   &:hover {
     color: #fff;
@@ -82,6 +83,7 @@
   align-items: center;
   padding: 0 5px;
   color: whitesmoke;
+  font-size: 12px;
   transform: rotateY(180deg);
 }
 .project-link-back {

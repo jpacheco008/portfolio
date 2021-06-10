@@ -3,6 +3,7 @@
 @import 'about';
 @import 'contact';
 @import 'nav';
+@import 'sidenav';
 @import 'portfolio';
 @import 'projects';
 @import 'responsive';
@@ -18,5 +19,4 @@ body {
   background-size: 100% 100%; 
   background-repeat: repeat;
   color: $font-color;
-  overflow: none;
 }

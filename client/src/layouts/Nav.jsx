@@ -27,15 +27,6 @@ export default function Nav() {
           <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
             <Link
               className="menu-nav-link"
-              to="/about-me"
-              onClick={() => setMenuActive(!menuActive)}
-            >
-              ABOUT ME
-            </Link>
-          </li>
-          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
-            <Link
-              className="menu-nav-link"
               to="/portfolio"
               onClick={() => setMenuActive(!menuActive)}
             >
@@ -51,6 +42,39 @@ export default function Nav() {
               CONTACT
             </Link>
           </li>
+          <div className="contact-links">
+
+          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+                href="https://www.linkedin.com/in/julio-pacheco-008/"
+                className='contact-icons'
+            >
+              <i className="fab fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+                href="https://github.com/jpacheco008"
+                className='contact-icons'
+              >
+                <i className="fab fa-github fa-2x"></i>
+            </a>
+          </li>
+          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+                href="https://calendly.com/jpacheco0825"
+                className='contact-icons'
+              >
+              <i className="fas fa-calendar-alt fa-2x"></i>
+            </a>
+          </li>
+              </div>
         </ul>
       </nav>
     </div>
