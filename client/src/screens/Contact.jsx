@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import SideNav from '../layouts/SideNav'
 
 export default function Contact() {
   const history = useHistory();
@@ -54,6 +55,9 @@ export default function Contact() {
 
   const { from_name, from_email, message } = form;
   return (
+    <div className='contact-screen'>
+      <SideNav />
+    
     <div className="contact-container">
       <h2 className="contact-text">Let's Create Something Together!</h2>
       <p className="contact-text-2">
@@ -123,6 +127,7 @@ export default function Contact() {
           />
         </a>
       </div> */}
-    </div>
+      </div>
+      </div>
   );
 }

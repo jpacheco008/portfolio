@@ -6,6 +6,12 @@
   padding: 0;
 }
 
+.landing-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .landing-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,7 +138,6 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  width: 250px;
   margin: 10px auto;
   border-radius: 5px;
   padding: 2vw;
@@ -171,6 +176,7 @@
 
 .about-me-text {
   font-size: 10px;
+  padding: 3px;
 }
 
 i {
@@ -202,6 +208,12 @@ i {
   margin: 0 auto;
 }
 
+.contact-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .contact-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,13 +228,12 @@ i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 60px;
+  margin: 60px auto;
 }
 
 .contact-text {
   margin: 30px auto 15px auto;
   text-align: center;
-  width: 90vw;
 }
 
 .contact-text-2 {
@@ -487,6 +498,67 @@ i {
           transition-delay: 0.65s;
 }
 
+.sidenav-container {
+  visibility: hidden;
+  width: 0;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+}
+
+.sidenav-logo {
+  width: 80px;
+}
+
+.sidenav-link {
+  text-decoration: none;
+  margin: 10px 0;
+  color: whitesmoke;
+}
+
+.sidenav-link:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  color: black;
+}
+
+.sidenav-icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.sidenav-icons {
+  margin: 3px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.sidenav-icons:hover {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  color: black;
+}
+
+.portfolio-screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .projects-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -646,12 +718,32 @@ i {
           transform: rotateY(180deg);
 }
 
-@media only screen and (min-width: 721px) and (max-width: 1220px) {
+@media only screen and (min-width: 541px) {
+  .nav-container {
+    visibility: hidden;
+  }
+  .sidenav-container {
+    visibility: visible;
+    width: 125px;
+  }
+  .landing-container {
+    margin-top: 10px;
+  }
   .landing-name {
-    font-size: 100px;
+    font-size: 60px;
+  }
+  .landing-title {
+    font-size: 25px;
+  }
+  .about-me-text {
+    font-size: 15px;
+    width: 400px;
+  }
+  .about-me-logos-container {
+    width: 300px;
   }
   .project-container {
-    width: 350px;
+    width: 300px;
     height: 265px;
   }
   .project-image {

@@ -1,14 +1,16 @@
+.contact-screen{
+  display: flex;
+}
 .contact-container {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
+  margin: 60px auto;
 }
 .contact-text {
   margin: 30px auto 15px auto;
   text-align: center;
-  width: 90vw;
   &-2{
     margin-bottom: 30px;
   }

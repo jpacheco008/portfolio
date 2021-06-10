@@ -5,9 +5,12 @@ import FirstClass from "../assets/NCFirstClass_Logo-Variations-01.png";
 import DoItRight from "../assets/Do_It_Right.jpg";
 import Project from "../components/Project";
 import ProjectPrivate from "../components/ProjectPrivate";
+import SideNav from '../layouts/SideNav'
 
 export default function Portfolio() {
   return (
+    <div className='portfolio-screen'>
+      <SideNav />
     <div className="projects-container">
       <Project
         name="Do It Right"
@@ -19,7 +22,7 @@ export default function Portfolio() {
         other software engineers."
         github="https://github.com/Rest4-Hackathon/Small-Biz-Rest"
         liveSite="https://chrome.google.com/webstore/detail/do-it-right/fologgfgadjcdjemgkohffpbbcegmipb"
-      />
+        />
       <ProjectPrivate
         name="NC First Class"
         photo={FirstClass}
@@ -28,7 +31,7 @@ export default function Portfolio() {
         processing. This application uses Bootstrap, Javascript, React, Redux, Python, and
         Django REST API framework."
         liveSite="https://ncfirstclass.herokuapp.com"
-      />
+        />
       <Project
         name="Caffeine Explorer"
         photo={CaffeineExplorer}
@@ -39,7 +42,7 @@ export default function Portfolio() {
         Ruby, and Ruby on Rails."
         github="https://github.com/jpacheco008/caffeine_explorer"
         liveSite="https://modest-tesla-2c628d.netlify.app"
-      />
+        />
       <Project
         name="Cool Ridings"
         photo={CoolRidings}
@@ -50,7 +53,7 @@ export default function Portfolio() {
         Javascript, and React."
         github="https://github.com/jpacheco008/Cool-Ridings"
         liveSite="https://sleepy-lewin-9c4a68.netlify.app"
-      />
+        />
       <Project
         name="Dominican Kitchen"
         photo={JuliosKitchen}
@@ -59,7 +62,8 @@ export default function Portfolio() {
         Javascript, and Airtable for API calls."
         github="https://github.com/jpacheco008/julios-kitchen"
         liveSite="https://pensive-mayer-03c92a.netlify.app"
-      />
+        />
     </div>
+        </div>
   );
 }

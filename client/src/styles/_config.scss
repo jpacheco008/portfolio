@@ -17,13 +17,9 @@ $font-color: whitesmoke;
   transition: all .5s ease-in-out;
 }
 
-@mixin media-mobile {
-  @media screen and (max-width: 720px) {
-    @content;
-  }
-}
 @mixin media-table {
-  @media only screen and (min-width: 721px) and (max-width: 1220px) {
+  @media only screen and (min-width: 541px){
     @content;
   }
 }
+

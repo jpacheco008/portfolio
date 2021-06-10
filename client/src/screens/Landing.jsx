@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Me from "../assets/Me.jpg";
+import SideNav from '../layouts/SideNav'
 
 export default function Landing() {
   return (
+    <div className='landing-screen'>
+    < SideNav />
     <div className="landing-container">
       <h1 className="landing-name">Julio Pacheco</h1>
       <span></span>
@@ -58,6 +61,7 @@ export default function Landing() {
       <Link to="/contact">
         <button className="landing-button">CONTACT ME</button>
       </Link> */}
-    </div>
+      </div>
+      </div>
   );
 }
