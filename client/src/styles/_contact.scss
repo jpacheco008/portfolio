@@ -3,29 +3,31 @@
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .contact-text {
-  margin: 5vh auto;
+  margin: 30px auto 15px auto;
   text-align: center;
   width: 90vw;
+  &-2{
+    margin-bottom: 30px;
+  }
 }
 .contact-links {
-  margin: 50px auto;
+  display: flex;
+  margin-top: 20px;
 }
-.contact-icon {
-  width: 40px;
-  margin: 0 40px;
-  &:active{
-    transform: scale(0.9);
-  }
+.contact-icons {
+  margin: 10px;
+  color: whitesmoke;
   &:hover {
     cursor: pointer;
   }
 }
 .form-container {
   background-color: transparent;
-  width: 210px;
+  width: 310px;
+  height: 340px;
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px $primary-color;
@@ -39,10 +41,13 @@
 }
 .text-input {
   margin-top: 10px;
-  width: 172px;
+  width: 280px;
+  height: 30px;
 }
 .text-area {
   margin-top: 10px;
+  width: 280px;
+  height: 200px;
 }
 .form-buttom {
   margin: 5px auto;

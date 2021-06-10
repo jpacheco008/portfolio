@@ -1,8 +1,7 @@
-
 .landing-container {
   display: flex;
   flex-flow: column;
-  margin: 50px auto;
+  margin: 80px auto;
 }
 
 .landing-container span {
@@ -10,44 +9,42 @@
 }
 @keyframes neon {
   from {
-    text-shadow: 0 0 2px $secondary-color, 0 0 10px $secondary-color, 0 0 15px $secondary-color,
-      0 0 20px $primary-color, 0 0 25px $primary-color, 0 0 30px $primary-color, 0 0 35px $primary-color;
+    text-shadow: 0 0 2px $secondary-color, 0 0 10px $secondary-color,
+      0 0 15px $secondary-color, 0 0 20px $primary-color,
+      0 0 25px $primary-color, 0 0 30px $primary-color, 0 0 35px $primary-color;
   }
   to {
-    text-shadow: 0 0 12px #000, 0 0 25px $secondary-color, 0 0 35px $secondary-color,
-      0 0 40px $primary-color, 0 0 45px $primary-color, 0 0 50px $primary-color, 0 0 50px $primary-color;
+    text-shadow: 0 0 12px #000, 0 0 25px $secondary-color,
+      0 0 35px $secondary-color, 0 0 40px $primary-color,
+      0 0 45px $primary-color, 0 0 50px $primary-color, 0 0 50px $primary-color;
   }
 }
 @keyframes orbs {
-  from{
-
+  from {
   }
-  to{
-
+  to {
   }
 }
 
 .landing-name {
   margin: 15px auto;
-  font-family: $title-font;
-  font-size: 160px;
+  font-family: $primary-font;
+  font-size: 40px;
   letter-spacing: 5px;
   color: whitesmoke;
   top: 30px;
-  // animation: neon 1.9s ease-in infinite;
 }
 
 .landing-title {
   margin: 10px auto;
-  font-family: "Nunito", sans-serif;
-  font-size: 1rem;
+  font-family: $primary-font;
+  font-size: 10px;
 }
 
 .landing-button {
-  width: 200px;
   height: 40px;
-  font-family: "Nunito", sans-serif;
-  font-size: 15px;
+  font-family: $primary-font;
+
   font-weight: 700;
   background-color: $primary-color;
   border-radius: 5px;
@@ -59,6 +56,9 @@
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
+
+  font-size: 10px;
+  width: 140px;
 
   &:active {
     transform: scale(0.95);

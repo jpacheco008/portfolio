@@ -55,10 +55,9 @@ export default function Contact() {
   const { from_name, from_email, message } = form;
   return (
     <div className="contact-container">
-      <h2 className="contact-text">Let's Create Something Together</h2>
-      <p className="contact-text">
-        If you like my work, please leave me a message. I would love to hear
-        from you!
+      <h2 className="contact-text">Let's Create Something Together!</h2>
+      <p className="contact-text-2">
+        If you like my work, contact me below
       </p>
 
       <div className="form-container">
@@ -100,7 +99,7 @@ export default function Contact() {
         </form>
       </div>
 
-      <div className="contact-links">
+      {/* <div className="contact-links">
         <a
           target="_blank"
           rel="noreferrer"
@@ -123,7 +122,7 @@ export default function Contact() {
             className="contact-icon"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
