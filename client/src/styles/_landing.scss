@@ -1,36 +1,15 @@
-.landing-screen{
+.landing-screen {
   display: flex;
 }
+
 .landing-container {
   display: flex;
   flex-flow: column;
-  margin: 80px auto;
-}
-
-.landing-container span {
-  height: 2px;
-}
-@keyframes neon {
-  from {
-    text-shadow: 0 0 2px $secondary-color, 0 0 10px $secondary-color,
-      0 0 15px $secondary-color, 0 0 20px $primary-color,
-      0 0 25px $primary-color, 0 0 30px $primary-color, 0 0 35px $primary-color;
-  }
-  to {
-    text-shadow: 0 0 12px #000, 0 0 25px $secondary-color,
-      0 0 35px $secondary-color, 0 0 40px $primary-color,
-      0 0 45px $primary-color, 0 0 50px $primary-color, 0 0 50px $primary-color;
-  }
-}
-@keyframes orbs {
-  from {
-  }
-  to {
-  }
+  margin: 0 auto;
 }
 
 .landing-name {
-  margin: 10px auto;
+  margin: 100px auto 0px auto;
   font-family: $primary-font;
   font-size: 40px;
   letter-spacing: 5px;
@@ -42,32 +21,66 @@
   margin: 0 auto;
   font-family: $primary-font;
   font-size: 20px;
+  font-style: italic;
+  letter-spacing: 4px;
 }
 
-.landing-button {
-  height: 40px;
-  font-family: $primary-font;
-
-  font-weight: 700;
-  background-color: $primary-color;
-  border-radius: 5px;
-  color: $font-color;
-  display: inline-block;
-  border-radius: 4px;
-  border: none;
-  text-align: center;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-
-  font-size: 10px;
-  width: 140px;
-
-  &:active {
-    transform: scale(0.95);
-    outline: none;
-  }
-}
 .landing-button-link {
   margin: 15px auto;
+}
+
+.landing-photo {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.about-me-container {
+  display: flex;
+  flex-flow: column;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.about-me-info {
+  display: flex;
+  flex-flow: column;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 2vw;
+  transition: 0.5s ease;
+}
+
+.about-me-logos {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px auto;
+  font-size: 30px;
+  &-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 210px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+.about-me-text {
+  font-size: 10px;
+  padding: 8px;
+  text-align: center;
+}
+i {
+  margin: 3px 5px;
 }

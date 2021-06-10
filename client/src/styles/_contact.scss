@@ -1,6 +1,7 @@
 .contact-screen{
   display: flex;
 }
+
 .contact-container {
   display: flex;
   flex-flow: column;
@@ -8,6 +9,7 @@
   justify-content: center;
   margin: 60px auto;
 }
+
 .contact-text {
   margin: 30px auto 15px auto;
   text-align: center;
@@ -15,17 +17,7 @@
     margin-bottom: 30px;
   }
 }
-.contact-links {
-  display: flex;
-  margin-top: 20px;
-}
-.contact-icons {
-  margin: 10px;
-  color: whitesmoke;
-  &:hover {
-    cursor: pointer;
-  }
-}
+
 .form-container {
   background-color: transparent;
   width: 310px;
@@ -35,22 +27,26 @@
   box-shadow: 2px 2px 2px 2px $primary-color;
   border: 2px solid $secondary-color;
 }
+
 .contact-form {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
 }
+
 .text-input {
   margin-top: 10px;
   width: 280px;
   height: 30px;
 }
+
 .text-area {
   margin-top: 10px;
   width: 280px;
   height: 200px;
 }
+
 .form-buttom {
   margin: 5px auto;
   padding: 3px;
@@ -66,4 +62,11 @@
     &:hover{
       cursor: pointer;
     }
+}
+
+.contact-photo{
+  margin-top: 25px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 }

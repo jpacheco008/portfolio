@@ -43,38 +43,37 @@ export default function Nav() {
             </Link>
           </li>
           <div className="contact-links">
-
-          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
-            <a
-              target="_blank"
-              rel="noreferrer"
+            <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+              <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.linkedin.com/in/julio-pacheco-008/"
-                className='contact-icons'
-            >
-              <i className="fab fa-linkedin fa-2x"></i>
-            </a>
-          </li>
-          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
-            <a
-              target="_blank"
-              rel="noreferrer"
+                className="contact-icons"
+              >
+                <i className="fab fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+            <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+              <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://github.com/jpacheco008"
-                className='contact-icons'
+                className="contact-icons"
               >
                 <i className="fab fa-github fa-2x"></i>
-            </a>
-          </li>
-          <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
-            <a
-              target="_blank"
-              rel="noreferrer"
+              </a>
+            </li>
+            <li className={`menu-nav-item ${menuActive ? "open" : ""}`}>
+              <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://calendly.com/jpacheco0825"
-                className='contact-icons'
+                className="contact-icons"
               >
-              <i className="fas fa-calendar-alt fa-2x"></i>
-            </a>
-          </li>
-              </div>
+                <i className="fas fa-calendar-alt fa-2x"></i>
+              </a>
+            </li>
+          </div>
         </ul>
       </nav>
     </div>
