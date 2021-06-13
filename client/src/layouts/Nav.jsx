@@ -47,7 +47,7 @@ export default function Nav() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/julio-pacheco-008/"
+                href="https://www.linkedin.com/in/juliopacheco008/"
                 className="contact-icons"
               >
                 <i className="fab fa-linkedin fa-2x"></i>
