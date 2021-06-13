@@ -20,7 +20,7 @@ export default function SideNav() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/julio-pacheco-008/"
+            href="https://www.linkedin.com/in/juliopacheco008/"
             className="sidenav-icons"
           >
             <i className="fab fa-linkedin fa-lg"></i>
